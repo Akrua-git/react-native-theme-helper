@@ -42,7 +42,7 @@ getTheme.create = (styles, modeOverride) => {
                 let prop = 'color';
                 if (token.toLowerCase().includes('bg')) prop = 'backgroundColor';
                 else if (token.toLowerCase().includes('border')) prop = 'borderColor';
-                else if (token.toLowerCase().includes('accent')) prop = 'color';
+                else if (token.toLowerCase().includes('text')) prop = 'color';
 
                 resolved[prop] = color;
             }
