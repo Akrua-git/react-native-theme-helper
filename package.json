@@ -2,7 +2,7 @@
   "name": "react-native-theme-helper",
   "version": "1.0.0",
   "description": "A lightweight React Native theme helper that supports dark and light modes, color token resolution, and shorthand $variable styles.",
-  "main": "theme.js",
+  "main": "index.js",
   "keywords": [
     "react-native",
     "theme",
