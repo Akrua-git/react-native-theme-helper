@@ -1,6 +1,6 @@
 # react-native-theme-provider
 
-A **lightweight theme helper** for React Native that makes adaptive light/dark theming easy and elegant — with optional `$token` shorthand support for styles.
+A **lightweight theme helper** for React Native that makes adaptive light/dark theming easy and elegant.
 
 ---
 
@@ -42,9 +42,9 @@ import { getTheme } from './themeProvider';
 
 const styles = getTheme.create({
   someComponent: {
-    backgroundColor: '$primaryBg', //or '$primaryBg': ''
+    backgroundColor: '$primaryBg',
     // auto-resolves → backgroundColor: theme.primaryBg
-    color: '$primaryText' // or '$primaryText': ''
+    color: '$primaryText',
     // auto-resolves → color: theme.primaryText
   }
 });
